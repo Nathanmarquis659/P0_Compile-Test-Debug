@@ -1,8 +1,8 @@
 # Project X
 
-- Name: John Doe
-- Email: johndoe@u.boisestate.edu
-- Class: CS123-001
+- Name: Nathan Marquis
+- Email: nathanmarquis659@u.boisestate.edu
+- Class: CS425-001
 
 ## Known Bugs or Issues
 

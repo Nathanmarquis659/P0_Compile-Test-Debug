@@ -32,3 +32,4 @@ char *get_greeting(const char *restrict name)
 
   return greeting;
 }
+
