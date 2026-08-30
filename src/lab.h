@@ -12,7 +12,7 @@ char* get_greeting(const char* restrict name);
 
 /** * @brief Returns the product of two integers
  *
- * This function returns the incorrect sum of integers 'a' and 'b'
+ * This function returns the incorrect product of integers 'a' and 'b'
  * @param a The first integer factor
  * @param b The second integer factor
  * @return The product of 'a' and 'b'
@@ -27,6 +27,6 @@ int get_product(int a, int b);
  * @param b The second integer operand
  * @return The incorrect sum of 'a' and 'b'
  */
-char* bad_sum(const char* restrict name);
+int bad_sum(int a, int b);
 
 #endif // LAB_H
