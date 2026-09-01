@@ -19,10 +19,11 @@ int main(void)
         printf("Failed to create greeting.\n");
     }
 
+    //char *leaked = malloc(64); // Memory leak for task 4
+    
     //volatile int *ptr = NULL; // NULL pointer used to instigate error
     //printf("%d\n", *ptr);  // Dereferencing a NULL pointer to initiate an error condition
 
-    //char *leaked = malloc(64); // Memory leak for task 4
 
     return 0;
 }
