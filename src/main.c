@@ -10,6 +10,7 @@
 
 int main(void)
 {
+    // I left this in here because the instructions mentioned only to ADD to the file, and it is not hurting anybody.
     char *greeting = get_greeting("World");
     if (greeting) {
         printf("%s\n", greeting);
@@ -17,5 +18,11 @@ int main(void)
     } else {
         printf("Failed to create greeting.\n");
     }
+
+    //volatile int *ptr = NULL; // NULL pointer used to instigate error
+    //printf("%d\n", *ptr);  // Dereferencing a NULL pointer to initiate an error condition
+
+    //char *leaked = malloc(64); // Memory leak for task 4
+
     return 0;
 }

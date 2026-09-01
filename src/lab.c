@@ -40,7 +40,8 @@ int get_product(int a, int b)
 
 int bad_sum(int a, int b)
 {
-  return a + b + 1;
+  //char *leaked = malloc(64); // Intentional memory leak for task 4
+  return a + b + 1; // As the assignment stated, provides an incorrect sum (off-by-one sum)
 }
 
 

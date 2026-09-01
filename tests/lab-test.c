@@ -29,13 +29,14 @@ void test_get_greeting(void) {
 
 void test_get_product(void)
 {
-  TEST_ASSERT_EQUAL_INT(2 * 2, get_product(2, 2));
+  TEST_ASSERT_EQUAL_INT(2 * 2, get_product(2, 2)); // Additional Test 1
+  TEST_ASSERT_NOT_EQUAL_INT(2 * 1, get_product(2, 2)); // Additional Test 2
 }
 
 void test_bad_sum(void)
 {
-  TEST_ASSERT_NOT_EQUAL_INT(2 + 2, bad_sum(2, 2));
-  TEST_ASSERT_EQUAL_INT(2 + 2 + 1, bad_sum(2, 2));
+  TEST_ASSERT_NOT_EQUAL_INT(2 + 2, bad_sum(2, 2)); // Additional Test 3
+  TEST_ASSERT_EQUAL_INT(2 + 2 + 1, bad_sum(2, 2)); // Additional Test 4
 }
 
 int main(void) {
